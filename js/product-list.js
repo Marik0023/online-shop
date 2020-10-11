@@ -54,14 +54,6 @@ class ProductList {
           this.handleProductBuyClick(event)
         )
       );
-    document.querySelector('.sort-asc').addEventListener('click', () => {
-        this.sortDirection = 'ascending';
-        this.renderProducts();
-    });
-    document.querySelector('.sort-desc').addEventListener('click', () => {
-        this.sortDirection = 'descending';
-        this.renderProducts();
-    });
   }
   async handleProductInfoClick(event) {
     const button = event.target; // Button that triggered the modal
