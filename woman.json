@@ -1,0 +1,29 @@
+[
+    {
+        "id": "13",
+        "title": "Baby Yoda",
+        "image": "nikeair.jpg",
+        "description": "Baby Yoda sticker",
+        "price": 49.99
+    },
+    {
+        "id": "14",
+        "title": "Banana",
+        "image": "nikeair.jpg",
+        "description": "Banana sticker",
+        "price": 19.99
+    },
+    {
+        "id": "15",
+        "title": "Girl",
+        "image": "nikeair.jpg",
+        "description": "Girl sticker",
+        "price": 24.99
+    },
+    {
+        "id": "16",
+        "title": "Viking",
+        "image": "nikeair.jpg",
+        "description": "Viking sticker",
+        "price": 34.99
+    }

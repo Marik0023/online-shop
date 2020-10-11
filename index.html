@@ -5,29 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online shop Stickerz</title>
+    <title>Popular Shoes</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="img/products/baby-yoda.svg">
+    <link rel="icon" href="img/icon.png">
 </head>
 
 <body>
     <header class="container" id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Stickerz</a>
+            <a class="navbar-brand" href="#"><img src="img/shues.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link " href="#home">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="#products">Products<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#products">Products</a>
+                        <a class="nav-link " href="#newcollection">New Collection</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#contacts">Contacts</a>
+                        <a class="nav-link " href="#man">Man</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#woman">Woman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#kids">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#sale">Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#end">Contacts</a>
                     </li>
                 </ul>
                 <div>
@@ -41,26 +53,12 @@
     </header>
     <main class="container">
         <div class="jumbotron">
-            
-            <div id="carouselOffers" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="intro mx-auto">
-                    <h1 class="display-4">Welcome to Stickerz</h1>
-                    <p class="lead">Best sticker shop in the World!</p>
-                    <hr class="my-4">
-                    <p>Buy with discount today</p>
-                    <p class="lead">
-                      <a class="btn btn-primary btn-lg " href="#products" role="button">Start shopping</a>
-                    </p>
-                  </div>    
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/products/baby-yoda.svg" alt="Baby Yoda">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/products/girl.svg" alt="Girl">
-                </div>
+            <div class="header-banner">
+                <h1>Popular Shoes</h1>
+                <li class="nav-item">
+                    <button class="btn button-shop" href="#products">Shop</button>
+                </li>
+            </div>
                 <!-- Todo: Dynamically add items here --> 
               </div>
               <a class="carousel-control-prev" href="#carouselOffers" role="button" data-slide="prev">
@@ -77,17 +75,43 @@
         </div>
         <section>
             <h2 id="products">Products</h2>
-            <button class="sort-asc">Sort Ascending</button>
-            <button class="sort-desc">Button Descending</button>
             <div class="row products-container">
                <!--Products are dynamically generated here-->
+            </div>
+            <h2 id="newcollection">New Collection</h2>
+            <div class="row products-container">
+            </div>
+            <h2 id="man">Man</h2>
+            <div class="row products-container">
+            </div>
+            <h2 id="woman">Woman</h2>
+            <div class="row products-container">
+            </div>
+            <h2 id="kids">Kids</h2>
+            <div class="row products-container">
+            </div>
+            <h2 id="sale">Sale</h2>
+            <div class="row products-container">
             </div>
         </section>
     </main>
     
     <footer class="container">
-      <h2 id="contacts">Contact us</h2>
-      <p>Copyright by <a href="https://programmingmentor.com">Programming Mentor</a></p>
+            <h2 id="end">Contact us</h2>
+            <div class="soc-icon">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook.png" alt="Facebook">
+            </a>
+            <a href="http://instagram.com/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="img/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="img/youtube.png" alt="YouTube">
+            </a>
+            </div>
     </footer>
     
 
