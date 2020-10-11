@@ -1,29 +1,30 @@
 [
     {
         "id": "17",
-        "title": "Baby Yoda",
+        "title": "Air Force 1 '07",
         "image": "nikeair.jpg",
-        "description": "Baby Yoda sticker",
-        "price": 49.99
+        "description": "The Nike Air Force 1 '07",
+        "price": 130
     },
     {
         "id": "18",
-        "title": "Banana",
+        "title": "Air Force 1 '07",
         "image": "nikeair.jpg",
-        "description": "Banana sticker",
-        "price": 19.99
+        "description": "The Nike Air Force 1 '07",
+        "price": 130
     },
     {
         "id": "19",
-        "title": "Girl",
+        "title": "Air Force 1 '07",
         "image": "nikeair.jpg",
-        "description": "Girl sticker",
-        "price": 24.99
+        "description": "The Nike Air Force 1 '07",
+        "price": 130
     },
     {
         "id": "20",
-        "title": "Viking",
+        "title": "Air Force 1 '07",
         "image": "nikeair.jpg",
-        "description": "Viking sticker",
-        "price": 34.99
+        "description": "The Nike Air Force 1 '07",
+        "price": 130
     }
+]
